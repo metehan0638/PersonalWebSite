@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background-color:darkgrey;
+}
+/*sayfa tasarım */
+#sayfa{
+width:100%;
+
+border-width: 1px;
+margin: auto;
+}
+/*banner tasarım */
+#banner{
+width:100%;
+height: 100px;
+background-color:rgb(0, 102, 255);
+border: solid;
+border-width: 1px;
+margin: auto;
+}
+#hosgeldin{
+font-size: 15px;
+color: white;
+width: 500px;
+position: relative;
+top: 40px;
+left:34%;
+text-align: center;
+}
+/*logo tasarım*/
+#logo{
+position: relative;
+bottom: 30px;
+left: 40px;
+width: 80px;
+height: 80px;
+
+float: left;
+}
+
+/*sosyal medya iconları*/
+#sosyal{
+float: right;
+width: 100px;
+height: 35px;
+
+position: relative;
+top: 25px;
+right: 30px;
+}
+/*anamenü navigasyonu */
+#anamenu{
+width: 100%;
+height: 50px;
+background-color: rgb(0, 60, 255);
+
+
+
+}
+#anamenu ul{
+list-style-type:none;
+
+}
+#anamenu ul li{
+width: 70px;
+border-color: rgb(255, 255, 255);
+border-style:solid;
+border-width: 2px;
+border-radius: 7px;
+float: left;
+position: relative;
+top: 10px;
+left: 30%;
+padding: 4px;
+margin-left: 50px;
+text-align: center;
+
+}
+#anamenu ul a{
+text-decoration: none;
+font-weight: bolder;
+}
+#anamenu ul a:link{
+color:rgb(255, 255, 255);
+}
+#anamenu ul a:visited{
+color: white;
+text-decoration: underline;
+}
+#anamenu ul a:hover{
+color:red;
+text-decoration: underline;
+}
+
+#content{
+width:100%;
+height: 450px;
+background-color:rgb(21, 72, 239);
+border: solid;
+border-width: 1px;
+
+}
+#altmenu{
+width:100%;
+height:100%;
+background-color:black;
+border: solid;
+border-width: 1px;
+}
+#arkaplan img{
+opacity: 0.5;
+}
+#sosyal1{
+
+width: 200px;
+height: 35px;
+
+position: relative;
+left: 650px;
+top: 65px;
+
+}
+.mete{
+text-align: center;
+color: white;
+position: relative;
+right: 50px;;
+}
